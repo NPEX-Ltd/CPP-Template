@@ -1,11 +1,13 @@
-workspace "<Repo Name>"
-    configurations {"Debug", "Release", ""}
+workspace "CPP-Template"
+    configurations {"Debug", "Release", "Dist"}
 
-project "<Project Name>"
+project "Hello"
     kind "ConsoleApp"
     language "C++"
-    targetdir "/bin/"
+    targetdir "bin/"
 
     files {"Src/**.cpp", "Src/**.hpp"}
 
-    includedirs {"Vendor/**.h", "Vendor/**.hpp"}
+    includedirs {"Vendor/include/", "Vendor/include/"}
+
+    libdirs {"Vendor/lib"}

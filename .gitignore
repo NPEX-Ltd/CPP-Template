@@ -2,3 +2,6 @@ Makefile
 **.make
 **.sln
 
+obj/**
+obj/**
+bin/**
