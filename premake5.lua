@@ -1,7 +1,7 @@
-workspace "CPP-Template"
+workspace "Nutmeg"
     configurations {"Debug", "Release", "Dist"}
 
-project "Hello"
+project "Nutmeg"
     kind "ConsoleApp"
     language "C++"
     targetdir "bin/"
